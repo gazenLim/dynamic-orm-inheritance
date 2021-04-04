@@ -1,3 +1,4 @@
+require 'pry'
 require_relative "./interactive_record.rb"
 
 class Song < InteractiveRecord
@@ -7,3 +8,4 @@ class Song < InteractiveRecord
   end
 
 end
+binding.pry
